@@ -18,7 +18,7 @@ function HomeScreen({ navigation }) {
       </Button>
       <Button
         mode="outlined"
-        onPress={() => navigation.navigate('Details')}
+        onPress={() => navigation.navigate('MyForm')}
         style={styles.button}
       >
         Go to Details
