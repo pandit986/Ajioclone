@@ -23,6 +23,20 @@ function HomeScreen({ navigation }) {
       >
         Go to Details
       </Button>
+      <Button
+        mode="outlined"
+        onPress={() => navigation.navigate('Animations')}
+        style={styles.button}
+      >
+        Go to Animations
+      </Button>
+      <Button
+        mode="outlined"
+        onPress={() => navigation.navigate('HandlingGestures')}
+        style={styles.button}
+      >
+        Go to HandlingGestures
+      </Button>
     </View>
   );
 }
