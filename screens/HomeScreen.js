@@ -23,6 +23,41 @@ function HomeScreen({ navigation }) {
       >
         Go to Details
       </Button>
+      <Button
+        mode="outlined"
+        onPress={() => navigation.navigate('VerticalScrollView')}
+        style={styles.button}
+      >
+        Go to VerticalScrollView frf
+      </Button>
+      <Button
+        mode="outlined"
+        onPress={() => navigation.navigate('HorizontalScrollView')}
+        style={styles.button}
+      >
+        Go to HorizontalScrollView
+      </Button>
+      <Button
+        mode="outlined"
+        onPress={() => navigation.navigate('MixedContentScrollView')}
+        style={styles.button}
+      >
+        Go to MixedContentScrollView
+      </Button>
+      <Button
+        mode="outlined"
+        onPress={() => navigation.navigate('ScrollViewWithRefresh')}
+        style={styles.button}
+      >
+        Go to ScrollViewWithRefresh
+      </Button>
+      <Button
+        mode="outlined"
+        onPress={() => navigation.navigate('NestedScrollView')}
+        style={styles.button}
+      >
+        Go to NestedScrollView
+      </Button>
     </View>
   );
 }
